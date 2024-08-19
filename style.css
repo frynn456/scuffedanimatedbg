@@ -1,0 +1,1101 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+.absolute{
+    position: absolute;
+    top: 0px !important;
+    inset: 0;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bg-shape1u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape2u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape3u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape4u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape5u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape6u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape7u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape8u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape9u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape10u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 0px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape11u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape12u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape13u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape14u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape15u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape16u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape17u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape18u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape19u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape20u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 400px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape21u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape22u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape23u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape24u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape25u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape26u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape27u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape28u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape29u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape30u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 800px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape31u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape32u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape33u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape34u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape35u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape36u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape37u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape38u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape39u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape40u{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 1200px;
+    animation: up 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape1d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape2d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape3d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape4d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape5d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape6d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape7d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape8d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape9d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape10d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 200px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape11d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape12d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape13d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape14d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape15d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape16d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape17d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape18d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape19d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape20d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 600px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape21d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape22d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape23d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape24d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape25d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape26d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape27d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape28d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape29d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape30d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 1000px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape31d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    translate: 0px 0px;
+    top: 0px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape32d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: 50px 50px; */
+    top: 200px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape33d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 400px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape34d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 600px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape35d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 800px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape36d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04AAE;
+    /* translate: -50px 50px; */
+    top: 1000px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape37d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0674A;
+    /* translate: -50px 50px; */
+    top: 1200px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape38d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F04A4A;
+    /* translate: -50px 50px; */
+    top: 1400px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape39d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #DE4AF0;
+    /* translate: -50px 50px; */
+    top: 1600px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+.bg-shape40d{
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    position: absolute;
+    animation: one 10s infinite;
+    background-color: #F0844A;
+    /* translate: -50px 50px; */
+    top: 1800px;
+    left: 1400px;
+    animation: down 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes up {
+    0%{
+
+    }
+    100%{
+        transform: translateY(-1000px);
+    }
+
+}
+
+@keyframes down {
+    0%{
+        transform: translateY(-1000px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+
+h1{
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    position: relative;
+    font-size: 5rem;
+}
+
+.opacity-50{
+    opacity: .9;
+}
+
+.bg-blur{
+    filter: blur(90px);
+}
